@@ -4,7 +4,7 @@
 
 <h1 align="center">Tutorial PWA Video Capture</h1>
 
-<p align="center">🚀 Increase the characteristics of your PWA with JavaScript. 🎤 Activate your device's camera and capture videos with audio easily.</p>
+<p align="center">🚀 Increase the characteristics of your PWA with JavaScript. 🎥 Activate your device's camera and capture videos with audio easily.</p>
 
 <p align="center">
   <a title="MIT License" href="LICENSE.md">
