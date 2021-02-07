@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-pwa-capture-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/tutorial-pwa-capture-video.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/tutorial-pwa-capture-video/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/tutorial-pwa-capture-video#readme",
+  "dependencies": {
+    "fastify": "^2.14.0",
+    "fastify-static": "^2.7.0"
+  }
+}

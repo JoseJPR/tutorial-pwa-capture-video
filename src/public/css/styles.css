@@ -1,0 +1,70 @@
+#info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888;
+  font-size: 12px;
+}
+
+#playerVideo {
+  text-align: center;
+}
+
+#player {
+  width: 800px;
+  max-width: 100%;
+}
+
+#footer {
+  display: inline-flex;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 5px 5px 5px 0px;
+  bottom: 20px;
+  right: 20px;
+}
+
+#buttonCamera {
+	background-image: url("../images/record.png");
+}
+
+#buttonDownload {
+  background-image: url("../images/download.png");
+}
+
+#buttonCamera:hover {
+  background-color: #f5b6cb;
+}
+
+#buttonCamera:active {
+  background-color: #f5b6cb;
+}
+
+.button {
+  cursor: pointer;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 2px;
+  background-position: center center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: #F1F3F4;
+  border-radius: 50px;
+}
+
+.shadow {
+  box-shadow: 0 20px 40px 0 rgba(91, 107, 174, 0.15);
+}
+
+.transition {
+  transition: all 500ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@keyframes bouncing{
+  0%  { background-color: #f5b6cb; }
+  100%{ background-color: #fff; }
+}
+
+.animation-loop {
+  animation: bouncing 0.5s 0s infinite alternate both;
+}
